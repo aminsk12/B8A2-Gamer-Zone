@@ -1,0 +1,19 @@
+@media screen and (max-width: 400px) {
+    .nav-container{
+        flex-direction: column;
+        width: 100%;
+        
+    
+    }
+    .nav-title{
+      flex-direction: column;
+      margin-top: 20px;
+      gap: 20px;
+        
+    }
+    .banner-container{
+        flex-direction: column;
+        align-items: center;
+    
+    }
+}

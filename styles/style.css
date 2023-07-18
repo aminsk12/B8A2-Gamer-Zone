@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+.nav-container{
+    margin: 0 auto;
+    min-width: 50px;
+    background-color: rgb(245, 238, 246);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-logo{
+    min-width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 2rem;
+    font-weight: bolder;
+    padding: 20px;
+}
+.nav-logo img{
+    padding-left: 20px;
+}
+.span{
+    color: rgb(204, 35, 154);
+}
+.nav-title{
+    min-width: 50%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.nav-title a{
+    list-style: none;
+    font-size: 1.2rem;
+    margin-left: 15px;
+    text-decoration: none;
+    color: rgb(31, 25, 25);
+    text-align: center;
+}
+.follo{
+    background-color: rgb(128, 6, 100);
+    padding: 0 10px;
+    border-radius: 10px;
+    color: white;
+}
+.fa-youtube{
+    font-size: 1.8rem;
+    color: red;
+    padding: 25px;
+}
+.fa-instagram{
+    font-size: 1.8rem;
+    color: brown;
+
+}
+
+
+
+
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 1400px;
+    min-height: 800px;
+
+}
+.banner-title{
+    width: 901px;
+    height: 700px;  
+    background-image: url(../images/Group\ 14.png);
+}
+.banner-title p{
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    padding: 20px;
+}
+.banner-title h1{
+    text-align: center;
+    font-size: 99px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #ef0b94 0%, #500af5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    padding-bottom:50px;      
+}
+.banner-title li{
+    color: #534C64;
+    padding-left:200px;
+    font-size: 25px;
+    
+    
+}
+.banner-img{
+    width: 901px;
+    height: 700px;
+}
